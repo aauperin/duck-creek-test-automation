@@ -1,0 +1,161 @@
+[
+  {
+    "id": "REQ-001_HAPPY_PATH",
+    "requirementId": "REQ-001",
+    "title": "User Login to Duck Creek - Happy Path",
+    "description": "Verify User should be able to login to Duck Creek Policy system with valid credentials works correctly with valid data",
+    "steps": [
+      {
+        "step": 1,
+        "action": "User should be able to login to Duck Creek Policy system with valid credentials",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      }
+    ],
+    "expectedResult": "Operation completes successfully",
+    "tags": [
+      "happy-path",
+      "Authentication",
+      "high"
+    ]
+  },
+  {
+    "id": "REQ-001_NEG_1",
+    "requirementId": "REQ-001",
+    "title": "User Login to Duck Creek - Validation: Username is required",
+    "description": "Verify system handles invalid data: Username is required",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Attempt action with invalid data: Username is required",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Authentication"
+    ]
+  },
+  {
+    "id": "REQ-001_NEG_2",
+    "requirementId": "REQ-001",
+    "title": "User Login to Duck Creek - Validation: Password is required",
+    "description": "Verify system handles invalid data: Password is required",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Attempt action with invalid data: Password is required",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Authentication"
+    ]
+  },
+  {
+    "id": "REQ-001_NEG_3",
+    "requirementId": "REQ-001",
+    "title": "User Login to Duck Creek - Validation: Invalid credentials show error message",
+    "description": "Verify system handles invalid data: Invalid credentials show error message",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Attempt action with invalid data: Invalid credentials show error message",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Authentication"
+    ]
+  },
+  {
+    "id": "REQ-001_NEG_4",
+    "requirementId": "REQ-001",
+    "title": "User Login to Duck Creek - Validation: Successful login redirects to home page",
+    "description": "Verify system handles invalid data: Successful login redirects to home page",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Attempt Successful login redirects to home page with invalid data",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Authentication"
+    ]
+  },
+  {
+    "id": "REQ-001_EDGE",
+    "requirementId": "REQ-001",
+    "title": "User Login to Duck Creek - Edge Cases",
+    "description": "Test boundary conditions for User should be able to login to Duck Creek Policy system with valid credentials",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Test login boundary conditions",
+        "expected": "System handles edge case"
+      }
+    ],
+    "expectedResult": "System handles edge cases appropriately",
+    "tags": [
+      "edge-case",
+      "Authentication"
+    ]
+  }
+]

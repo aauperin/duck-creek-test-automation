@@ -1,0 +1,69 @@
+[
+  {
+    "id": "REQ-001",
+    "title": "User Login to Duck Creek",
+    "description": "User should be able to login to Duck Creek Policy system with valid credentials",
+    "acceptance_criteria": [
+      "Username is required",
+      "Password is required",
+      "Invalid credentials show error message",
+      "Successful login redirects to home page"
+    ],
+    "module": "Authentication",
+    "priority": "high"
+  },
+  {
+    "id": "REQ-002",
+    "title": "Create New Policy",
+    "description": "User should be able to create a new insurance policy with customer information",
+    "acceptance_criteria": [
+      "Policy number must be unique",
+      "Effective date cannot be in the past",
+      "Customer information is required",
+      "Premium calculation must be accurate"
+    ],
+    "module": "Policy",
+    "priority": "high"
+  },
+  {
+    "id": "REQ-003",
+    "title": "Search Existing Policy",
+    "description": "User should be able to search for existing policies by various criteria",
+    "acceptance_criteria": [
+      "Search by policy number",
+      "Search by customer name",
+      "Search by effective date range",
+      "Display search results in grid"
+    ],
+    "module": "Policy",
+    "priority": "medium"
+  },
+  {
+    "id": "REQ-004",
+    "title": "Process Policy Endorsement",
+    "description": "User should be able to create and process policy endorsements",
+    "acceptance_criteria": [
+      "Select existing policy",
+      "Choose endorsement type",
+      "Update policy details",
+      "Recalculate premium",
+      "Generate endorsement document"
+    ],
+    "module": "Policy",
+    "priority": "high"
+  },
+  {
+    "id": "REQ-005",
+    "title": "Submit New Claim",
+    "description": "User should be able to submit a new insurance claim",
+    "acceptance_criteria": [
+      "Associate claim with valid policy",
+      "Enter loss date and description",
+      "Upload supporting documents",
+      "Assign adjuster",
+      "Generate claim number"
+    ],
+    "module": "Claims",
+    "priority": "high"
+  }
+]

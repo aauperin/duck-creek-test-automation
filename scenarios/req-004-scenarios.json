@@ -1,0 +1,232 @@
+[
+  {
+    "id": "REQ-004_HAPPY_PATH",
+    "requirementId": "REQ-004",
+    "title": "Process Policy Endorsement - Happy Path",
+    "description": "Verify User should be able to create and process policy endorsements works correctly with valid data",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Perform action: User should be able to create and process policy endorsements",
+        "expected": "Action completes successfully"
+      }
+    ],
+    "expectedResult": "Operation completes successfully",
+    "tags": [
+      "happy-path",
+      "Policy",
+      "high"
+    ]
+  },
+  {
+    "id": "REQ-004_NEG_1",
+    "requirementId": "REQ-004",
+    "title": "Process Policy Endorsement - Validation: Select existing policy",
+    "description": "Verify system handles invalid data: Select existing policy",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Attempt action with invalid data: Select existing policy",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Policy"
+    ]
+  },
+  {
+    "id": "REQ-004_NEG_2",
+    "requirementId": "REQ-004",
+    "title": "Process Policy Endorsement - Validation: Choose endorsement type",
+    "description": "Verify system handles invalid data: Choose endorsement type",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Attempt action with invalid data: Choose endorsement type",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Policy"
+    ]
+  },
+  {
+    "id": "REQ-004_NEG_3",
+    "requirementId": "REQ-004",
+    "title": "Process Policy Endorsement - Validation: Update policy details",
+    "description": "Verify system handles invalid data: Update policy details",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Attempt action with invalid data: Update policy details",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Policy"
+    ]
+  },
+  {
+    "id": "REQ-004_NEG_4",
+    "requirementId": "REQ-004",
+    "title": "Process Policy Endorsement - Validation: Recalculate premium",
+    "description": "Verify system handles invalid data: Recalculate premium",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Attempt action with invalid data: Recalculate premium",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Policy"
+    ]
+  },
+  {
+    "id": "REQ-004_NEG_5",
+    "requirementId": "REQ-004",
+    "title": "Process Policy Endorsement - Validation: Generate endorsement document",
+    "description": "Verify system handles invalid data: Generate endorsement document",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Attempt action with invalid data: Generate endorsement document",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Policy"
+    ]
+  },
+  {
+    "id": "REQ-004_EDGE",
+    "requirementId": "REQ-004",
+    "title": "Process Policy Endorsement - Edge Cases",
+    "description": "Test boundary conditions for User should be able to create and process policy endorsements",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Test boundary condition: User should be able to create and process policy endorsements",
+        "expected": "System handles edge case"
+      }
+    ],
+    "expectedResult": "System handles edge cases appropriately",
+    "tags": [
+      "edge-case",
+      "Policy"
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "name": "duckc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "explore": "ts-node utils/pageExplorer.ts",
+    "generate:scenarios": "ts-node utils/scenarioGenerator.ts",
+    "generate:testdata": "ts-node utils/testDataGenerator.ts",
+    "cli": "ts-node utils/cli.ts",
+    "report": "playwright show-report",
+    "report:evidence": "ts-node utils/generateEvidenceReport.ts",
+    "codegen": "playwright codegen https://your-instance.duckcreekondemand.com/policy/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.7.0",
+    "dotenv": "^17.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

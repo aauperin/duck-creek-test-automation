@@ -1,0 +1,97 @@
+[
+  {
+    "claimNumber": "CLM-217961",
+    "policyNumber": "POL-340040",
+    "lossDate": "2025-09-18",
+    "reportDate": "2025-09-17",
+    "lossType": "Weather",
+    "lossDescription": "Test claim description for automated testing",
+    "estimatedAmount": 18862,
+    "status": "Open",
+    "claimant": {
+      "firstName": "Jane",
+      "lastName": "Johnson",
+      "fullName": "Jane Johnson",
+      "email": "jane.johnson@example.com",
+      "phone": "397-931-3554",
+      "dateOfBirth": "1990-05-17",
+      "ssn": "864-37-4052"
+    }
+  },
+  {
+    "claimNumber": "CLM-208855",
+    "policyNumber": "POL-409191",
+    "lossDate": "2025-09-28",
+    "reportDate": "2025-09-19",
+    "lossType": "Water Damage",
+    "lossDescription": "Test claim description for automated testing",
+    "estimatedAmount": 32129,
+    "status": "Approved",
+    "claimant": {
+      "firstName": "Emma",
+      "lastName": "Miller",
+      "fullName": "Emma Miller",
+      "email": "emma.miller@example.com",
+      "phone": "684-693-9116",
+      "dateOfBirth": "1983-07-30",
+      "ssn": "749-37-9005"
+    }
+  },
+  {
+    "claimNumber": "CLM-150589",
+    "policyNumber": "POL-725948",
+    "lossDate": "2025-09-30",
+    "reportDate": "2025-09-25",
+    "lossType": "Fire",
+    "lossDescription": "Test claim description for automated testing",
+    "estimatedAmount": 21754,
+    "status": "Open",
+    "claimant": {
+      "firstName": "David",
+      "lastName": "Williams",
+      "fullName": "David Williams",
+      "email": "david.williams@example.com",
+      "phone": "925-486-3718",
+      "dateOfBirth": "1992-02-25",
+      "ssn": "274-66-6411"
+    }
+  },
+  {
+    "claimNumber": "CLM-462470",
+    "policyNumber": "POL-959666",
+    "lossDate": "2025-09-01",
+    "reportDate": "2025-10-06",
+    "lossType": "Weather",
+    "lossDescription": "Test claim description for automated testing",
+    "estimatedAmount": 22250,
+    "status": "Open",
+    "claimant": {
+      "firstName": "Olivia",
+      "lastName": "Williams",
+      "fullName": "Olivia Williams",
+      "email": "olivia.williams@example.com",
+      "phone": "485-960-5135",
+      "dateOfBirth": "2001-09-20",
+      "ssn": "197-64-7057"
+    }
+  },
+  {
+    "claimNumber": "CLM-543548",
+    "policyNumber": "POL-675586",
+    "lossDate": "2025-10-01",
+    "reportDate": "2025-10-06",
+    "lossType": "Theft",
+    "lossDescription": "Test claim description for automated testing",
+    "estimatedAmount": 7327,
+    "status": "Under Review",
+    "claimant": {
+      "firstName": "Emily",
+      "lastName": "Johnson",
+      "fullName": "Emily Johnson",
+      "email": "emily.johnson@example.com",
+      "phone": "690-493-5954",
+      "dateOfBirth": "1988-11-13",
+      "ssn": "604-26-8362"
+    }
+  }
+]

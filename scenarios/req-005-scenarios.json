@@ -1,0 +1,232 @@
+[
+  {
+    "id": "REQ-005_HAPPY_PATH",
+    "requirementId": "REQ-005",
+    "title": "Submit New Claim - Happy Path",
+    "description": "Verify User should be able to submit a new insurance claim works correctly with valid data",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Perform action: User should be able to submit a new insurance claim",
+        "expected": "Action completes successfully"
+      }
+    ],
+    "expectedResult": "Operation completes successfully",
+    "tags": [
+      "happy-path",
+      "Claims",
+      "high"
+    ]
+  },
+  {
+    "id": "REQ-005_NEG_1",
+    "requirementId": "REQ-005",
+    "title": "Submit New Claim - Validation: Associate claim with valid policy",
+    "description": "Verify system handles invalid data: Associate claim with valid policy",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Attempt action with invalid data: Associate claim with valid policy",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Claims"
+    ]
+  },
+  {
+    "id": "REQ-005_NEG_2",
+    "requirementId": "REQ-005",
+    "title": "Submit New Claim - Validation: Enter loss date and description",
+    "description": "Verify system handles invalid data: Enter loss date and description",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Attempt action with invalid data: Enter loss date and description",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Claims"
+    ]
+  },
+  {
+    "id": "REQ-005_NEG_3",
+    "requirementId": "REQ-005",
+    "title": "Submit New Claim - Validation: Upload supporting documents",
+    "description": "Verify system handles invalid data: Upload supporting documents",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Attempt action with invalid data: Upload supporting documents",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Claims"
+    ]
+  },
+  {
+    "id": "REQ-005_NEG_4",
+    "requirementId": "REQ-005",
+    "title": "Submit New Claim - Validation: Assign adjuster",
+    "description": "Verify system handles invalid data: Assign adjuster",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Attempt action with invalid data: Assign adjuster",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Claims"
+    ]
+  },
+  {
+    "id": "REQ-005_NEG_5",
+    "requirementId": "REQ-005",
+    "title": "Submit New Claim - Validation: Generate claim number",
+    "description": "Verify system handles invalid data: Generate claim number",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Attempt action with invalid data: Generate claim number",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Claims"
+    ]
+  },
+  {
+    "id": "REQ-005_EDGE",
+    "requirementId": "REQ-005",
+    "title": "Submit New Claim - Edge Cases",
+    "description": "Test boundary conditions for User should be able to submit a new insurance claim",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Test boundary condition: User should be able to submit a new insurance claim",
+        "expected": "System handles edge case"
+      }
+    ],
+    "expectedResult": "System handles edge cases appropriately",
+    "tags": [
+      "edge-case",
+      "Claims"
+    ]
+  }
+]

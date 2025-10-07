@@ -1,0 +1,199 @@
+[
+  {
+    "id": "REQ-003_HAPPY_PATH",
+    "requirementId": "REQ-003",
+    "title": "Search Existing Policy - Happy Path",
+    "description": "Verify User should be able to search for existing policies by various criteria works correctly with valid data",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Perform action: User should be able to search for existing policies by various criteria",
+        "expected": "Action completes successfully"
+      }
+    ],
+    "expectedResult": "Operation completes successfully",
+    "tags": [
+      "happy-path",
+      "Policy",
+      "medium"
+    ]
+  },
+  {
+    "id": "REQ-003_NEG_1",
+    "requirementId": "REQ-003",
+    "title": "Search Existing Policy - Validation: Search by policy number",
+    "description": "Verify system handles invalid data: Search by policy number",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Attempt action with invalid data: Search by policy number",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Policy"
+    ]
+  },
+  {
+    "id": "REQ-003_NEG_2",
+    "requirementId": "REQ-003",
+    "title": "Search Existing Policy - Validation: Search by customer name",
+    "description": "Verify system handles invalid data: Search by customer name",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Attempt action with invalid data: Search by customer name",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Policy"
+    ]
+  },
+  {
+    "id": "REQ-003_NEG_3",
+    "requirementId": "REQ-003",
+    "title": "Search Existing Policy - Validation: Search by effective date range",
+    "description": "Verify system handles invalid data: Search by effective date range",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Attempt action with invalid data: Search by effective date range",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Policy"
+    ]
+  },
+  {
+    "id": "REQ-003_NEG_4",
+    "requirementId": "REQ-003",
+    "title": "Search Existing Policy - Validation: Display search results in grid",
+    "description": "Verify system handles invalid data: Display search results in grid",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Attempt action with invalid data: Display search results in grid",
+        "expected": "Error message displayed"
+      }
+    ],
+    "expectedResult": "System displays appropriate error message",
+    "tags": [
+      "negative",
+      "validation",
+      "Policy"
+    ]
+  },
+  {
+    "id": "REQ-003_EDGE",
+    "requirementId": "REQ-003",
+    "title": "Search Existing Policy - Edge Cases",
+    "description": "Test boundary conditions for User should be able to search for existing policies by various criteria",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Login to Duck Creek application",
+        "data": {
+          "username": "${process.env.DC_USERNAME}",
+          "password": "${process.env.DC_PASSWORD}"
+        },
+        "expected": "User successfully logged in"
+      },
+      {
+        "step": 2,
+        "action": "Navigate to relevant module",
+        "expected": "Module page loads successfully"
+      },
+      {
+        "step": 3,
+        "action": "Test boundary condition: User should be able to search for existing policies by various criteria",
+        "expected": "System handles edge case"
+      }
+    ],
+    "expectedResult": "System handles edge cases appropriately",
+    "tags": [
+      "edge-case",
+      "Policy"
+    ]
+  }
+]

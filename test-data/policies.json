@@ -1,0 +1,132 @@
+[
+  {
+    "policyNumber": "POL-793118",
+    "policyType": "Commercial",
+    "effectiveDate": "2025-10-08",
+    "expirationDate": "2026-10-08",
+    "premium": 1752,
+    "coverageType": "Liability",
+    "coverageAmount": 134853,
+    "deductible": 1870,
+    "customer": {
+      "firstName": "James",
+      "lastName": "Smith",
+      "fullName": "James Smith",
+      "email": "james.smith@example.com",
+      "phone": "279-559-9565",
+      "dateOfBirth": "1997-12-02",
+      "ssn": "581-79-7758"
+    },
+    "address": {
+      "street": "1532 Main St",
+      "city": "Georgetown",
+      "state": "PA",
+      "zip": "71690",
+      "country": "USA"
+    }
+  },
+  {
+    "policyNumber": "POL-253910",
+    "policyType": "Commercial",
+    "effectiveDate": "2025-10-08",
+    "expirationDate": "2026-10-08",
+    "premium": 4400,
+    "coverageType": "Collision",
+    "coverageAmount": 487652,
+    "deductible": 1100,
+    "customer": {
+      "firstName": "Robert",
+      "lastName": "Martinez",
+      "fullName": "Robert Martinez",
+      "email": "robert.martinez@example.com",
+      "phone": "980-841-1879",
+      "dateOfBirth": "1984-05-03",
+      "ssn": "568-54-9569"
+    },
+    "address": {
+      "street": "3963 Elm St",
+      "city": "Madison",
+      "state": "NC",
+      "zip": "92038",
+      "country": "USA"
+    }
+  },
+  {
+    "policyNumber": "POL-631020",
+    "policyType": "Life",
+    "effectiveDate": "2025-10-08",
+    "expirationDate": "2026-10-08",
+    "premium": 2189,
+    "coverageType": "Personal Injury",
+    "coverageAmount": 177291,
+    "deductible": 1584,
+    "customer": {
+      "firstName": "David",
+      "lastName": "Miller",
+      "fullName": "David Miller",
+      "email": "david.miller@example.com",
+      "phone": "307-774-6414",
+      "dateOfBirth": "2000-01-27",
+      "ssn": "995-77-6026"
+    },
+    "address": {
+      "street": "961 Maple Dr",
+      "city": "Madison",
+      "state": "OH",
+      "zip": "16480",
+      "country": "USA"
+    }
+  },
+  {
+    "policyNumber": "POL-912522",
+    "policyType": "Umbrella",
+    "effectiveDate": "2025-10-08",
+    "expirationDate": "2026-10-08",
+    "premium": 4242,
+    "coverageType": "Liability",
+    "coverageAmount": 456686,
+    "deductible": 744,
+    "customer": {
+      "firstName": "Sarah",
+      "lastName": "Smith",
+      "fullName": "Sarah Smith",
+      "email": "sarah.smith@example.com",
+      "phone": "775-541-4710",
+      "dateOfBirth": "1983-07-02",
+      "ssn": "946-60-3908"
+    },
+    "address": {
+      "street": "9925 Cedar Ln",
+      "city": "Madison",
+      "state": "OH",
+      "zip": "27877",
+      "country": "USA"
+    }
+  },
+  {
+    "policyNumber": "POL-260716",
+    "policyType": "Commercial",
+    "effectiveDate": "2025-10-08",
+    "expirationDate": "2026-10-08",
+    "premium": 2095,
+    "coverageType": "Liability",
+    "coverageAmount": 383087,
+    "deductible": 258,
+    "customer": {
+      "firstName": "John",
+      "lastName": "Davis",
+      "fullName": "John Davis",
+      "email": "john.davis@example.com",
+      "phone": "299-522-4319",
+      "dateOfBirth": "2006-05-11",
+      "ssn": "253-92-9537"
+    },
+    "address": {
+      "street": "8388 Park Ave",
+      "city": "Franklin",
+      "state": "PA",
+      "zip": "95957",
+      "country": "USA"
+    }
+  }
+]

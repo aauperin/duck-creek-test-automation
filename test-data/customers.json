@@ -1,0 +1,92 @@
+[
+  {
+    "firstName": "James",
+    "lastName": "Martinez",
+    "fullName": "James Martinez",
+    "email": "james.martinez@example.com",
+    "phone": "424-455-6329",
+    "dateOfBirth": "2001-08-14",
+    "ssn": "728-59-9322"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Davis",
+    "fullName": "John Davis",
+    "email": "john.davis@example.com",
+    "phone": "475-645-7463",
+    "dateOfBirth": "1980-05-28",
+    "ssn": "505-96-9189"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Brown",
+    "fullName": "Emily Brown",
+    "email": "emily.brown@example.com",
+    "phone": "229-905-3591",
+    "dateOfBirth": "2003-12-28",
+    "ssn": "411-15-1884"
+  },
+  {
+    "firstName": "Olivia",
+    "lastName": "Martinez",
+    "fullName": "Olivia Martinez",
+    "email": "olivia.martinez@example.com",
+    "phone": "899-584-1946",
+    "dateOfBirth": "2006-04-15",
+    "ssn": "488-36-9347"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Brown",
+    "fullName": "John Brown",
+    "email": "john.brown@example.com",
+    "phone": "789-791-6111",
+    "dateOfBirth": "1984-02-29",
+    "ssn": "336-98-2656"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Williams",
+    "fullName": "Emily Williams",
+    "email": "emily.williams@example.com",
+    "phone": "825-977-1223",
+    "dateOfBirth": "1997-09-30",
+    "ssn": "823-87-8306"
+  },
+  {
+    "firstName": "Robert",
+    "lastName": "Brown",
+    "fullName": "Robert Brown",
+    "email": "robert.brown@example.com",
+    "phone": "625-243-4372",
+    "dateOfBirth": "2004-07-28",
+    "ssn": "425-64-2769"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Johnson",
+    "fullName": "Michael Johnson",
+    "email": "michael.johnson@example.com",
+    "phone": "896-703-3609",
+    "dateOfBirth": "1990-03-01",
+    "ssn": "509-87-6173"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Smith",
+    "fullName": "Michael Smith",
+    "email": "michael.smith@example.com",
+    "phone": "739-357-2939",
+    "dateOfBirth": "1983-06-14",
+    "ssn": "697-25-8021"
+  },
+  {
+    "firstName": "James",
+    "lastName": "Rodriguez",
+    "fullName": "James Rodriguez",
+    "email": "james.rodriguez@example.com",
+    "phone": "434-661-3639",
+    "dateOfBirth": "1992-05-18",
+    "ssn": "998-42-5378"
+  }
+]
