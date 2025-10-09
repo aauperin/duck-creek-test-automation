@@ -1,0 +1,428 @@
+{
+  "title": "Home",
+  "url": "https://ued1007.duckcreekondemand.com/policy/me/express/defaultViewmodel",
+  "inputs": [
+    {
+      "type": "text",
+      "name": "",
+      "id": "dfcb_0",
+      "placeholder": "Search for Policies, Quotes, Bill Accounts or Claims",
+      "className": "ng-untouched ng-pristine ng-valid"
+    },
+    {
+      "type": "hidden",
+      "name": "timeZoneId",
+      "id": "timeZoneId",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "themeDir",
+      "id": "themeDir",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "skinCore",
+      "id": "skinCore",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "dateformat",
+      "id": "dateformat",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "serverUrl",
+      "id": "serverUrl",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "PriorityOrder",
+      "id": "PriorityOrder",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "Error",
+      "id": "Error",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "Fail",
+      "id": "Fail",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "Ineligible",
+      "id": "Ineligible",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "Refer",
+      "id": "Refer",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "Information",
+      "id": "Information",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "Success",
+      "id": "Success",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "Comment",
+      "id": "Comment",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "errorDisplayLocation",
+      "id": "errorDisplayLocation",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "apiVersion",
+      "id": "apiVersion",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "ExpressDefaultPageApiEndpoint",
+      "id": "ExpressDefaultPageApiEndpoint",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "ExpressXsltDirectory",
+      "id": "ExpressXsltDirectory",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "StateFulFlag",
+      "id": "StateFulFlag",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "ExpressHandleClassicJump",
+      "id": "ExpressHandleClassicJump",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "HelpIcons",
+      "id": "HelpIcons",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "TrackAllFields",
+      "id": "TrackAllFields",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "AnalyticsBag",
+      "id": "AnalyticsBag",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "UnauthorizedViewId",
+      "id": "UnauthorizedViewId",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "loadingDisplayDelayTime",
+      "id": "loadingDisplayDelayTime",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "interstitialDisplayDelayTime",
+      "id": "interstitialDisplayDelayTime",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "useNativeControlsBelow",
+      "id": "useNativeControlsBelow",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "renderTitleForLabels",
+      "id": "renderTitleForLabels",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "AutoCompleteOff",
+      "id": "AutoCompleteOff",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "AutoCorrectOff",
+      "id": "AutoCorrectOff",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "AutoCapitalizeOff",
+      "id": "AutoCapitalizeOff",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "SpellCheckOff",
+      "id": "SpellCheckOff",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "StatefulAttachments",
+      "id": "StatefulAttachments",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "FieldDebounceTime",
+      "id": "FieldDebounceTime",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "IntegerDefaultFormatMask",
+      "id": "IntegerDefaultFormatMask",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "FloatDefaultFormatMask",
+      "id": "FloatDefaultFormatMask",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "PromptOnUnsavedChanges",
+      "id": "PromptOnUnsavedChanges",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "isLoggedIn",
+      "id": "isLoggedIn",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "debugMode",
+      "id": "debugMode",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "exitInterviewField",
+      "id": "exitInterviewField",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "showDevTools",
+      "id": "showDevTools",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "sessionId",
+      "id": "sessionId",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "overrideLanguageForScreens",
+      "id": "overrideLanguageForScreens",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "defaultLanguageForScreens",
+      "id": "defaultLanguageForScreens",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "PowerBiErrorHandlingType",
+      "id": "PowerBiErrorHandlingType",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "SupportedFonts",
+      "id": "SupportedFonts",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "TimeOut",
+      "id": "TimeOut",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "TimeOutURL",
+      "id": "TimeOutURL",
+      "placeholder": "",
+      "className": ""
+    },
+    {
+      "type": "hidden",
+      "name": "multiLanguageForScreens",
+      "id": "multiLanguageForScreens",
+      "placeholder": "",
+      "className": ""
+    }
+  ],
+  "buttons": [
+    {
+      "type": null,
+      "text": "Policy",
+      "id": "",
+      "className": "button is-clear has-text-size-larger",
+      "name": null
+    },
+    {
+      "type": null,
+      "text": "",
+      "id": "",
+      "className": "button",
+      "name": null
+    },
+    {
+      "type": "button",
+      "text": "Log Out",
+      "id": "",
+      "className": "button",
+      "name": null
+    },
+    {
+      "type": null,
+      "text": "New Quote",
+      "id": "action_1",
+      "className": "nav-button button is-action",
+      "name": null
+    },
+    {
+      "type": null,
+      "text": "",
+      "id": "",
+      "className": "button button--toggle",
+      "name": null
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "https://ued1007.duckcreekondemand.com/policy/express.aspx#/",
+      "id": ""
+    },
+    {
+      "text": "Home",
+      "href": "",
+      "id": "action_2"
+    },
+    {
+      "text": "Notifications",
+      "href": "",
+      "id": "action_3"
+    },
+    {
+      "text": "Notes",
+      "href": "",
+      "id": "action_4"
+    },
+    {
+      "text": "Tasks",
+      "href": "",
+      "id": "action_5"
+    },
+    {
+      "text": "Search",
+      "href": "",
+      "id": "action_6"
+    },
+    {
+      "text": "Upload Download",
+      "href": "",
+      "id": "action_7"
+    },
+    {
+      "text": "Queue",
+      "href": "",
+      "id": ""
+    }
+  ]
+}
